@@ -3091,7 +3091,7 @@ eslint@^4.19.1:
     imurmurhash "^0.1.4"
     inquirer "^3.0.6"
     is-resolvable "^1.0.0"
-    js-yaml "^3.9.1"
+    js-yaml "^3.13.1"
     json-stable-stringify-without-jsonify "^1.0.1"
     levn "^0.3.0"
     lodash "^4.17.4"
@@ -3135,7 +3135,7 @@ eslint@^5.8.0:
     import-fresh "^3.0.0"
     imurmurhash "^0.1.4"
     inquirer "^6.2.2"
-    js-yaml "^3.13.0"
+    js-yaml "^3.13.1"
     json-stable-stringify-without-jsonify "^1.0.1"
     levn "^0.3.0"
     lodash "^4.17.11"
@@ -4617,14 +4617,6 @@ js-yaml@^3.13.0, js-yaml@^3.13.1, js-yaml@^3.9.1:
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
-
-js-yaml@~3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.0.2.tgz#9937865f8e897a5e894e73c2c5cf2e89b32eb771"
-  integrity sha1-mTeGX46Jel6JTnPCxc8uibMut3E=
-  dependencies:
-    argparse "~ 0.1.11"
-    esprima "~ 1.0.2"
 
 jsbn@~0.1.0:
   version "0.1.1"
@@ -8221,7 +8213,7 @@ yamlify@^0.2.0:
   resolved "https://registry.yarnpkg.com/yamlify/-/yamlify-0.2.0.tgz#9c98c1abbea5773eccdb0ecea3f1fe586fd842b7"
   integrity sha512-QnBIid+R7eNgId+cY2SLP6BhU8FWRLVkrbaNAnb/exhszgYZRFbSdc77ROTk1rbtn6YMG7XvScO9feZqn5XHjQ==
   dependencies:
-    js-yaml "~3.0.2"
+    js-yaml "~3.13.1"
     through "~2.3.4"
 
 yargs-parser@^11.1.1:
