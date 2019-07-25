@@ -10,8 +10,8 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "js-yaml": "^3.12.2",
+    "jquery": "^3.4.0",
+    "js-yaml": "^3.13.1",
     "popper.js": "^1.14.7",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
