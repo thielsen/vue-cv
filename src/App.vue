@@ -5,19 +5,23 @@
       <router-link to="/about">Skills</router-link> |
       <router-link to="/education">Education</router-link> |
       <router-link to="/experience">Experience</router-link> |
-      <router-link to="/hobbies">Hobbies</router-link>
+      <router-link to="/hobbies">Hobbies</router-link> |
+      <router-link to="/contact">Contact</router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
 <script>
+import { yaml } from 'yaml-js'
 export default {
     name: 'app'
 };
 </script>
 
 <style>
+@import '../node_modules/font-awesome/css/font-awesome.css';
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

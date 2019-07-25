@@ -1,10 +1,11 @@
 <template>
-  <div class="cv">
+  <div class="contact">
+    {{ cv }}
   </div>
 </template>
 
 <script>
 export default {
-  name: 'cv',
+  name: 'contact',
 }
 </script>

@@ -1,0 +1,137 @@
+
+/* #*/ export const CV = `
+name:
+  first: Simon
+  last: Green
+about: 
+
+experience:
+- company: Makers Academy
+  position: Developer
+  timeperiod: November 2018 - March 2019
+  description:
+  - Makers is a highly selective four monthcoding bootcamp
+  - Curious and passionate about code
+  - Fast, independent learner
+  - Great collaborator 
+  - OOP, TDD, MVC, DDD
+  - Agile/XP
+  - Ruby, Rails, JavaScript
+  - RSpec, Jasmine
+  website: https://makers.tech
+
+- company: Options Technology
+  position: Developer
+  timeperiod: July 2012 - December 2018
+  description: 
+  - Inherited a global Cisco OSPF design which was migrated to a BGP based Arista low latency network spanning 25+ datacentres
+  - Migration of Check Point perimeter firewalls to Fortinet alongside remote access and site-to-site VPN
+  - Designed and deployed MIFID II compliant PTP solution globally including bespoke monitoring
+  - Incorporated Corvil monitoring for key clients to allow market data and trade metrics across the platform
+  website: https://www.options-it.com
+
+- company: JPMorgan Chase
+  position: Developer
+  timeperiod: Feb 2007 - May 2012
+  description: 
+  - Undertook a variety of roles at JP Morgan in the Operations, Business Partner Engineering and Corporate Engineering teams
+  - Technical lead for strategic datacentre migration projects with a focus on IP service migration (firewalls, load balancer, proxy infrastructure and ECNs)
+  - Responsible for design and implementation of secure connectivity for trade and data feeds working with a variety of external financial companies
+  - Design and implementation of corporate connectivity solutions with a focus on branch connectivity via VPN, MPLS and leased line
+  - Managed data requirements ensuring all JP Morgan EMEA sites were voice and video ready
+  - High-pressure environment with complex change control requirements
+  website: https://www.jpmorganchase.com
+
+- company: Axon (now HCL Technologies)
+  position: Developer
+  timeperiod: Sep 2003 - Dec 2006
+  description: 
+  - Project and technical lead for network changes globally
+  - Provided pre and post-sales support for bids focusing on connectivity between Axon and clients and network security for numerous blue chips companies
+  - Provision of 3rd line support for all network and security issues
+  - Provided support and mentoring to junior staff members
+  website: https://www.hcltech.com
+
+- company: Abovenet (now Zayo)
+  position: Developer
+  timeperiod: Jun 2002 - Sep 2003
+  description: 
+  - Provided security and networking support expertise within the managed web services team
+  - Responsible for technical pre-sales on bids, design of solutions for clients, project deployment and handover to support
+  - Dedicated technical lead for a number of blue-chip clients providing a point of contact for any issues
+  website: https://www.zayo.com
+
+- company: IMG
+  position: Developer
+  timeperiod: Aug 2000 - Jun 2002
+  description: 
+  - Architect and lead engineer for a number of web projects, responsible for the design, rollout and ongoing support of the UK, Hong Kong and US server farm for video streaming and online gaming
+  - 3rd line support for the UK high-speed campus network providing secure network services to 400 staff in broadcast services
+  website: http://www.img.com
+
+- company: Imperial College London
+  position: Developer
+  timeperiod: Jul 1998 - Aug 2000
+  description: 
+  - Provided 1st/2nd line support to a large multi-campus network consisting of approximately 35000 users
+  - Team leader for a team of 5 network support engineers
+  website: https://www.imperial.ac.uk
+
+
+education:
+- degree: University College London
+  timeperiod: September 1995 - July 1998
+  description: BSc Biology
+  website: https://www.ucl.ac.uk/biosciences
+
+skills:
+- name: Works well under pressure
+  description: Having spent the last 10 years working in the financial environment, most recently in high frequency trading, I am used to working in high pressure environments with tight deadlines for project delivery and for troubleshooting of misbehaving systems. This also often involves dealing with highly emotional people who need their infrastructure working so there is also a great deal of diplomacy involved whilst not allowing this to distract from the end goal.
+- name: Analytical Approach
+  description: Designing low latency networks involves eking out every bit of performance from devices. Often when evaluating hardware getting down to the ASIC level is required and understanding how this will interact with other parts of the network. This involves reading, digesting and finding the links between vast amounts of information along with an understanding of how higher level protocols will be affected.
+- name: Quick learner
+  description: Working in fast paced technology roles has meant that an ability to quickly pick up new technologies has been a necessity. Many previous clients have required to be on the bleeding edge so we would often be one of the first to deploy new technologies, often working along vendors to resolve bugs as we hit them. In addition I've had to maintain my certifications either through continuing professional development or by sitting new qualifying exams meaning constant learning has been required throughout my career.
+- name: Motivated self starter
+  description: I've always taken charge of my own career and not just followed the path it takes me. Through self study and home labbing I managed to pass two of the most respected certifications in networking and security, the CCIE and the CISSP. Most recently my decision to spend 3 months at Makers studying coding full time is further evidence of this.
+- name: Technical skillset
+  description: Having worked in various roles in operations, engineering, pre-sales and architecture over my career, starting on desktop support and working my way up via various infrastructure teams to a network and security focus I have a large amount of technical skills in various disciplines and an understanding of how the big technology picture fits together.
+
+certifications:
+- name: CCIE Routing and Switching 22406
+  vendor: Cisco
+  website: https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-routing-switching.html
+
+- name: CISSP
+  vendor: ISC2
+  website: https://www.isc2.org/Certifications/CISSP
+
+- name: CCNA Cyber Operations
+  vendor: Cisco
+  website: https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-cyber-ops.html#~stickynav=1
+
+projects:
+- name: 
+  technologies: 
+  description: 
+  url: 
+
+hobbies:
+- name: Running
+  iconClass: fas fa-running
+  url: https://example.com
+
+- name: Mountaineering
+  iconClass: fas fa-mountain
+  url: https://example.com
+
+- name: Hiking
+  iconClass: fas fa-tree
+  url: https://example.com
+
+contact:
+  email: simon.green@thielsen.co.uk
+  phone: 07973 748589
+  city: London
+  github: thielsen
+  linkedin: https://www.linkedin.com/in/simon-green-b078273/
+`
